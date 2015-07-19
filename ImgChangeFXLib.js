@@ -10,7 +10,7 @@
             automate: if set to false, this script won't do anything to the div (default:true)
 */
 
-var elements = document.getElementsByClassName("ImgFX"),  element, folder = "", files, imgs = [], time = 5000, speed = 1000, fileString, curImage = 0, buttons = [], isChanging = false, curTimeOut, isActive = true;
+var elements = document.getElementsByClassName("ImgFX"),  element, folder = "", files, imgs = [], time = 5000, speed = 800, fileString, curImage = 0, buttons = [], isChanging = false, curTimeOut, isActive = true;
 var parent;
 var libName = "ImgChangeFXLib";
 
